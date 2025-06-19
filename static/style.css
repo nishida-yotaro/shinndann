@@ -1,0 +1,116 @@
+body {
+  font-family: 'Yu Mincho', 'Hiragino Mincho ProN', serif;
+  background-color: #f5f0e1;
+  color: #2c2c2c;
+  text-align: center;
+  padding: 40px;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #8b0000;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #8b0000;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 15px auto;
+  max-width: 700px;
+  line-height: 1.6;
+}
+
+
+button {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+#question-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fffaf0;
+  border: 2px solid #8b0000;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#choices {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  /* ボタン間のスペース */
+}
+
+#question-text {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+#choices button {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d4af37;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#choices button:hover {
+  background-color: #c19a2b;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.1em;
+  padding: 10px 20px;
+  background-color: #8b0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#result:hover {
+  background-color: #a52a2a;
+}
+
+/* style.css - 診断結果ページ用 */
+
+img {
+  display: block;
+  border: 5px solid #d4af37;
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.top-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 25px;
+  font-size: 1.1em;
+  background-color: #8b0000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.top-button:hover {
+  background-color: #a52a2a;
+}
